@@ -1,0 +1,69 @@
+.Home-Container {
+    display: flex;
+    justify-content: space-evenly;
+
+    height: 70vh;
+    
+}
+
+.Welcome-Message {
+    width: 70%;
+    height: auto;
+    background-color: rgb(3,4,3);
+    border: solid 2px;
+    border-color: whitesmoke;
+    border-radius: 10px;
+
+    box-sizing: border-box;
+
+    .Welcome-Message-Title{
+        height: 2em;
+        border-bottom: solid 2px;
+        border-color: whitesmoke;
+        
+        padding-left: 1em;
+
+        display: flex;
+        align-items: center;
+
+        font-weight: bolder;
+    }
+
+    .Welcome-Message-Body{
+        padding: 1em;
+    }
+}
+
+.Login-Container {
+    background-color: rgb(3,4,3);
+    border: solid 2px;
+    border-color: whitesmoke;
+    border-radius: 10px;
+
+    box-sizing: border-box;
+
+    .Login-Container-Title{
+        height: 2em;
+        border-bottom: solid 2px;
+        border-color: whitesmoke;
+        
+        padding-left: 1em;
+
+        display: flex;
+        align-items: center;
+
+        font-weight: bolder;
+    }
+
+    .Login-Container-Body{
+        padding: 1em;
+    }
+}
+
+.Input-Smeknamn{
+    width: 100%;
+}
+
+.Input-Password{
+    width: 100%;
+}

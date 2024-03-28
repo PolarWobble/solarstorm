@@ -1,0 +1,92 @@
+.Navigation-Container {
+    height: 160px;
+    width: 100%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: solid 2px;
+    border-color: whitesmoke;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    background-color: rgb(54,160,195);
+    color: antiquewhite;
+    
+    box-sizing: border-box;
+}
+
+.Navigation-Main {
+    background-color: rgb(54,160,195);
+    height: 75%;
+    width: 100%;
+    margin: 10px;
+    border: dashed 0px;
+
+    box-sizing: border-box;
+    
+
+    .Main-Top {
+        height: 40%;
+        width: 35em;
+        min-width: max-content;
+        background-color: rgb(54,160,195);
+        border: dashed 1px;
+        
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+
+        box-sizing: border-box;
+
+        .Logo {
+            text-align: left;
+            border: solid 1px;
+            border-radius: 10px;
+            border-color: aquamarine;
+
+            box-sizing: border-box;
+        }
+
+        .Online-Count {
+            display: flex;
+            text-align: justify;
+            width: 6em;
+            flex-direction: column;
+
+            .Online-Count-Number{
+                font-size: large;
+            }
+            
+            .Online-Count-Text{
+                font-size: x-small;
+            }
+        }
+    }
+
+    .Main-Bot {
+        width: 100%;
+        height: 60%;
+        background-color: rgb(175,127,102);
+        border: 3px solid;
+        border-radius: 10px;
+        border-color: whitesmoke;
+
+        box-sizing: border-box;
+        
+        .Bot-Links {
+            width: 35em;
+            min-width: max-content;
+            height: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+            justify-items: start;
+
+            box-sizing: border-box;
+        }
+    }
+
+    
+}
